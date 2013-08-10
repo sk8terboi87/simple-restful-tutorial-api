@@ -1,0 +1,107 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "ffdfc88f7af432dfff3641bed548404d",
+    "packages": [
+        {
+            "name": "purekid/mongodm",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/purekid/mongodm.git",
+                "reference": "ea598a23673b05e1dde531d73aa41086481772dd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/purekid/mongodm/zipball/ea598a23673b05e1dde531d73aa41086481772dd",
+                "reference": "ea598a23673b05e1dde531d73aa41086481772dd",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Purekid\\Mongodm\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael.Gan",
+                    "homepage": "http://github/purekid"
+                }
+            ],
+            "description": "a PHP MongoDB ORM",
+            "keywords": [
+                "mongodb",
+                "mongodm",
+                "orm"
+            ],
+            "time": "2013-07-22 02:53:00"
+        },
+        {
+            "name": "slim/slim",
+            "version": "2.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/codeguy/Slim.git",
+                "reference": "2.3.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/codeguy/Slim/zipball/2.3.1",
+                "reference": "2.3.1",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mcrypt": "*",
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Slim": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Josh Lockhart",
+                    "email": "info@joshlockhart.com",
+                    "homepage": "http://www.joshlockhart.com/"
+                }
+            ],
+            "description": "Slim Framework, a PHP micro framework",
+            "homepage": "http://github.com/codeguy/Slim",
+            "keywords": [
+                "microframework",
+                "rest",
+                "router"
+            ],
+            "time": "2013-07-20 18:38:05"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "purekid/mongodm": 20
+    },
+    "platform": [
+
+    ],
+    "platform-dev": [
+
+    ]
+}

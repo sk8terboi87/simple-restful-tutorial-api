@@ -1,0 +1,11 @@
+{
+    "require": {
+        "slim/slim": "2.*",
+        "purekid/mongodm": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+        	"Model": "app"
+        }
+    }
+}
